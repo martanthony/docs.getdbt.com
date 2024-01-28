@@ -3,6 +3,11 @@ datatype: version-range | [version-range]
 description: "Read this guide to understand the require-dbt-version configuration in dbt."
 default_value: None
 ---
+
+:::info
+As we prioritize the stability of ongoing dbt releases, this config is no longer recommended.
+:::
+
 <File name='dbt_project.yml'>
 
 ```yml
